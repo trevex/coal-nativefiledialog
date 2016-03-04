@@ -16,7 +16,7 @@ class NativefiledialogFile(CoalFile):
             git_clone(self.nfd, 'master', 'repo')
     def package(self):
         cp('repo/src/include/*.h', 'include/')
-        cp('repo/src/*.h', 'include/')
+        cp('repo/src/*.h', 'src/')
         cp('repo/src/*.c', 'src/')
         cp('repo/src/*.m', 'src/')
         cp('repo/*.h', 'include/')
