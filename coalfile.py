@@ -6,7 +6,7 @@ from os import path
 
 class NativefiledialogFile(CoalFile):
     nfd = "https://github.com/mlabbe/nativefiledialog.git"
-    tfd = "https://github.com/trevex/tinyfiledialog.git"
+    tfd = "git://git.code.sf.net/p/tinyfiledialogs/code"
     exports = ["include", "src"]
 
     def prepare(self):
